@@ -616,6 +616,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
@@ -691,6 +693,8 @@
 			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>5</integer>
+			<key>LauncherPath</key>
+			<string>Default</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -742,8 +746,6 @@
 			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
-			<key>BootProtect</key>
-			<string>None</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -869,6 +871,8 @@
 			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>iMac20,1</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>SystemSerialNumber</key>
 			<string>changeit</string>
 			<key>SystemUUID</key>
